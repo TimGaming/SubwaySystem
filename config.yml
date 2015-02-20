@@ -1,0 +1,3 @@
+subway:
+    time-between-generation: 15
+    subway-schematic: CagraySubwayFix.schematic

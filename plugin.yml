@@ -1,0 +1,16 @@
+name: SubwaySystem
+main: com.turbogrimoire.purelysatanic.SubwaySystem.SubwaySystemPlugin
+version: 2.0
+website: http://turbogrimoire.com
+author: Purely Satanic
+depend: [WorldGuard]
+description: >
+             SubwaySystem by Purely Satanic
+commands:
+  Subway:
+    description:
+    usage: |
+      /<command> generate [radius] [schematic]
+      /<command> custom [name] [schematic]
+      /<command> remove [station]
+      /<command> search [region]
