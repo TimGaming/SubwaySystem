@@ -82,6 +82,7 @@ public class SubwayGenerationRunnable
     protection.setFlag(DefaultFlag.DESTROY_VEHICLE, StateFlag.State.ALLOW);
     protection.setFlag(DefaultFlag.USE, StateFlag.State.ALLOW);
     protection.setFlag(DefaultFlag.MOB_SPAWNING, StateFlag.State.DENY);
+    protection.setFlag(DefaultFlag.INTERACT, StateFlag.State.ALLOW);
     this.plugin.getWorldGuard().getGlobalRegionManager().get(this.world)
       .addRegion(protection);
     this.plugin.getWorldGuard().getGlobalRegionManager().get(this.world)
